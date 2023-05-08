@@ -9,4 +9,63 @@ body {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(./assets/newyork.jpg) center/cover;
+  color: aliceblue;
+}
+
+.box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 46px;
+  text-align: center;
+  color: #ffebcd;
+}
+
+.one,
+.two,
+.three,
+.four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.582);
+  /* padding: 10px 20px; */
+  width: 150px;
+  height: 120px;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  background: #395964;
+  width: 150px;
+  height: 120px;
+  /* padding: 10px 20px; */
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 72px;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
 }
