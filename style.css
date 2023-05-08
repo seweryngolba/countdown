@@ -38,15 +38,14 @@ h1 {
   gap: 5px;
   font-size: 18px;
   background: rgba(0, 0, 0, 0.582);
-  /* padding: 10px 20px; */
   width: 150px;
   height: 120px;
 }
 
-.day,
-.hour,
-.minute,
-.second {
+.days,
+.hours,
+.minutes,
+.seconds {
   display: flex;
   align-items: center;
   justify-content: center;
