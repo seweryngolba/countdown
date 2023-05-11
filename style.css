@@ -8,8 +8,14 @@ body {
   width: 100%;
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./assets/newyork.jpg) center/cover;
+    url(./assets/newyork.jpg) center/cover no-repeat;
   color: aliceblue;
+  margin: 0 auto;
+  width: 360px;
+}
+
+.container {
+  margin: 0 auto;
 }
 
 .box {
@@ -22,7 +28,9 @@ body {
 }
 
 h1 {
-  font-size: 46px;
+  margin-top: 20px;
+  font-size: 24px;
+  width: 150px;
   text-align: center;
   color: #ffebcd;
 }
@@ -35,11 +43,10 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 5px;
-  font-size: 18px;
+  font-size: 0.5em;
   background: rgba(0, 0, 0, 0.582);
-  width: 150px;
-  height: 120px;
+  width: 80px;
+  height: 60px;
 }
 
 .days,
@@ -49,17 +56,17 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 36px;
+  font-size: 16px;
   font-weight: bold;
   background: #395964;
-  width: 150px;
-  height: 120px;
-  /* padding: 10px 20px; */
+  width: 80px;
+  height: 60px;
 }
 
 @media screen and (min-width: 768px) {
   h1 {
-    font-size: 72px;
+    font-size: 48px;
+    width: 600px;
   }
   .container {
     display: flex;
